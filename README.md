@@ -55,4 +55,4 @@ helm upgrade rancher rancher-latest/rancher
 
 ### Better overview with k9scli
 
-![k9scli overview](docs\images\k9scli-pulse-overview.png)
+![k9scli overview](docs/images/k9scli-pulse-overview.png)
