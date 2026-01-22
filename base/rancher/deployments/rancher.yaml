@@ -1,0 +1,24 @@
+# nginx.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+name: rancher
+namespace: rancher-ui
+spec:
+replicas: 1
+selector:
+  matchLabels:
+    app: rancher
+template:
+  metadata:
+    labels:
+      app: rancher
+    annotations:
+      rancher.io/scrape: "true"
+      rancher.io/port: "443"
+  spec:
+    containers:
+      - name: rancher
+        image: rancher:latest
+        ports:
+          - containerPort: 80

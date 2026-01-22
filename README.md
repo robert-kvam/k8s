@@ -42,6 +42,8 @@ kubectl apply -f deployments/prometheus.yaml
 
 ```
 
+---
+
 ### QoL with HELM and Rancher
 
 > *https://ranchermanager.docs.rancher.com/getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster*
@@ -51,7 +53,7 @@ helm install rancher rancher-latest/rancher
 helm upgrade rancher rancher-latest/rancher
 ```
 
----
+
 
 ### Better overview with k9scli
 
