@@ -26,7 +26,7 @@ $./
         └── resources-limits.yaml
 ```
 
-### Deployments
+### Assumed deployment steps
 
 ```bash
 kubectl apply -f namespaces/monitoring.yaml
