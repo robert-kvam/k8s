@@ -50,3 +50,9 @@ kubectl apply -f deployments/prometheus.yaml
 helm install rancher rancher-latest/rancher
 helm upgrade rancher rancher-latest/rancher
 ```
+
+---
+
+### Better overview with k9scli
+
+![k9scli overview](docs\images\k9scli-pulse-overview.png)
