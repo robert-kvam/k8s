@@ -41,3 +41,12 @@ kubectl apply -f deployments/grafana.yaml
 kubectl apply -f deployments/prometheus.yaml
 
 ```
+
+### QoL with HELM and Rancher
+
+> *https://ranchermanager.docs.rancher.com/getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster*
+
+```bash
+helm install rancher rancher-latest/rancher
+helm upgrade rancher rancher-latest/rancher
+```
